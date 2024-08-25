@@ -34,7 +34,7 @@
                             <img src="../assets/images/Frame.png" alt="">
                         </div>
                     </div>
-                    <div class="nav_inputs flex ">
+                    <div class="nav_inputs flex">
                         <select name="" id="">
                             <option value="Все категории">Все категории</option>
                         </select>
@@ -46,21 +46,21 @@
                             Поиск
                         </button>
                     </div>
-                    <div class="nav_right flex gap-[36px] item-center">
-                        <div class="_1">
-                            <img src="../public/images/user.png" alt="">
+                    <div class="nav_right flex gap-[36px] item-center justify-center">
+                        <div class="_1 flex flex-col item-center justify-center">
+                            <img src="../public/images/user.png" alt="" class="w-[30px] h-[30px]">
                             Войти
                         </div>
-                        <div class="_2">
-                            <img src="../public/images/Compound Path.png" alt="">
+                        <div class="_2 flex flex-col item-center justify-center">
+                            <img src="../public/images/Compound Path.png" alt="" class="w-[30px] h-[25px]">
                             Сравнение
                         </div>
-                        <div class="_3">
-                            <img src="../public/images/heart.png" alt="">
+                        <div class="_3 flex flex-col item-center justify-center">
+                            <img src="../public/images/heart.png" alt="" class="w-[30px] h-[30px]">
                             Избранное
                         </div>
-                        <div class="_4">
-                            <img src="../public/images/Vector.png" alt="">
+                        <div class="_4 flex flex-col item-center justify-center">
+                            <img src="../public/images/Vector.png" alt="" class="w-[23px] h-[22px]">
                             Корзина
                         </div>
                     </div>
