@@ -1,6 +1,6 @@
 <template>
   <div>
-APP VUE
+    <NavComponent />
   </div>
 </template>
 
