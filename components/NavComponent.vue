@@ -46,7 +46,7 @@
                             Поиск
                         </button>
                     </div>
-                    <div class="nav_right flex gap-[36px] item-center">
+                    <div class="nav_right flex gap-[36px] item-center text-center">
                         <div class="_1">
                             <img src="../public/images/user.png" alt="">
                             Войти
