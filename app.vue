@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <NavComponent />
   </div>
 </template>
 
