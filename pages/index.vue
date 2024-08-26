@@ -1,6 +1,7 @@
 <template>
       <div>
             <CardSectionComponent/>
+            <SwiperCardCom/>  
       </div>
 </template>
 
