@@ -1,6 +1,11 @@
-.card-bottom {
+.cardsection{
+  .content{
+
+
+    .card-bottom {
       display: grid;
       grid-template-columns: repeat(4, 280px);
+      justify-content: center;
       gap: 30px;
       padding: 20px;
       .card-islombek-bottom {
@@ -27,6 +32,8 @@
 
       }
     }
+  }
+}
 
 
 
@@ -56,11 +63,7 @@ background-color: #fff;
 padding: 10px;
 }
 
-.swiper-slide img {
-  width: 140px;
-  height: 110px;
-  transform: translateY(-24px);
-}
+
 
 
 

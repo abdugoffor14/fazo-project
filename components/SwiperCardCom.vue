@@ -14,7 +14,7 @@
     >
       <swiper-slide v-for="card in 10" :key="card" swiper-slide>
         <h2 class="text-[20px] text-[#202020] leading-[19px]">Компьютеры</h2>
-        <img src="../public/images/Computer 1.png" />
+        <img class="comp" src="../public/images/Computer 1.png" />
       </swiper-slide>
       
       <!-- Custom navigation buttons -->
@@ -51,7 +51,7 @@ body {
   padding: 10px;
 }
 
-.swiper-slide img {
+.swiper-slide .comp {
   width: 140px;
   height: 110px;
   transform: translateY(-24px);
