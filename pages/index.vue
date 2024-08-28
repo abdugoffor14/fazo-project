@@ -2,6 +2,7 @@
       <div>
             <CardSectionComponent/>
             <SwiperCardCom/>  
+            <IphoneSecComponent/>
       </div>
 </template>
 
