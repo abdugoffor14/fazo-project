@@ -1,8 +1,8 @@
 <template>
-  <div class="iphone-sec">
+  <div class="iphone-sec bg-[#F8F8F8]">
       <div class="container">
             <div class="iphon-content">
-                  <swiper :navigation="true" :modules="modules" class="mySwiper">
+                  <swiper :navigation="true" :modules="modules" class="mySwiper2">
     <swiper-slide v-for="card in 3" :key="card">
       <div class="iphone-about">
         <h1 class="text-[42px] leading-[57px] font-medium">
@@ -43,9 +43,11 @@ import { Swiper, SwiperSlide } from "swiper/vue";
 import "swiper/css";
 
 import "swiper/css/navigation";
+import "../assets/scss/iphonesection.scss";
+
 
 // import required modules
-import { Navigation } from "swiper/modules";
+import { Navigation,} from "swiper/modules";
 
 export default {
   components: {
@@ -64,16 +66,16 @@ export default {
       width: 100%;
       display: flex;
       justify-content: center;
+      
 }
+
 .swiper-slide {
       display: flex;
       justify-content: space-between;
       align-items: center;
       background-color: #F7F7F7;
       padding: 20px 50px;
-      .swiper-slide-prev{
-            width: 100%;
-      }
+ 
   .dengi {
     button {
       padding: 12px 51px;
@@ -91,4 +93,6 @@ export default {
     }
   }
 }
+
+
 </style>

@@ -55,7 +55,7 @@
               <img src="../public/images/Compound Path.png" alt="" />
               Сравнение
             </div>
-            <div class="_3 flex items-center flex-col">
+            <div  class="_3 flex items-center flex-col">
               <img src="../public/images/heart.png" alt="" />
               Избранное
             </div>
@@ -90,10 +90,12 @@
         </div>
       </div>
     </div>
+
   </div>
 </template>
 
 <script setup>
+
 </script>
 
 <style lang="scss" scoped>
