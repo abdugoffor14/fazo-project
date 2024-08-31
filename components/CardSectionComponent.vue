@@ -49,7 +49,7 @@
                   <p class="text-[#909090] text-[14px] line-height-[25px]">
                     Предложение заканчивается через:
                   </p>
-                  <div class="den flex gap-[22px]">
+                  <div class="den flex gap-[19px]">
                     <div class="soat text-center flex flex-col">
                       <p>27</p>
                       <p class="text-[#909090] text-[8px]">ДНЕЙ</p>
@@ -74,7 +74,7 @@
               </div>
             </div>
             <div
-              class="card-islombek-last border-[1px] border-[#F2F2F2] p-[15px] flex items-center gap-[44px] bg-[#fff]"
+              class="card-islombek-last border-[1px] border-[#F2F2F2] p-[15px] flex items-center gap-[40px] bg-[#fff]"
             >
               <img
                 class="cursor-pointer"
@@ -111,6 +111,7 @@
             </div>
           </div>
           
+          
         </div>
           
       </div>
@@ -122,7 +123,7 @@
 import { ref } from 'vue'
 
 let cards = ref(
-  Array(8).fill().map(() => ({
+  Array(10).fill().map(() => ({
     fill: false,
     stroke: false,
   }))

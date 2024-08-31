@@ -4,7 +4,7 @@
 
     .card-bottom {
       display: grid;
-      grid-template-columns: repeat(4, 280px);
+      grid-template-columns: repeat(5, 260px);
       justify-content: center;
       gap: 30px;
       padding: 20px;
@@ -16,7 +16,7 @@
       .card-islombek {
         background-color: #fff;
         border: 1px solid #F2F2F2;
-        padding: 15px 23px;
+        padding: 15px;
         text-align: center;
 
         .card-islombek-top{
