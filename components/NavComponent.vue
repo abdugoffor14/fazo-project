@@ -55,7 +55,7 @@
               <img src="../public/images/Compound Path.png" alt="" />
               Сравнение
             </div>
-            <div class="_3 flex items-center flex-col">
+            <div  class="_3 flex items-center flex-col">
               <img src="../public/images/heart.png" alt="" />
               Избранное
             </div>
@@ -93,38 +93,7 @@
         </div>
       </div>
     </div>
-    <div class="message bg-[#ED3729] w-[67px] h-[67px] rounded-[50%]">
-      <img src="../assets/images/Vector.png" alt="" />
-    </div>
-    <button class="button" v-if="modalOpen2" @close="closeModal2" @click="modalOpen2 = false">
-      <span class="X"></span>
-      <span class="Y"></span>
-      <div class="close">Close</div>
-    </button>
-    <filterCom v-if="modalOpen2" @close="closeModal2"></filterCom>
-  </div>
-</template>
 
-<script>
-export default {
-  data() {
-    return {
-      modalOpen2: false,
-      modalOpen: false,
-      modalOpen3: false,
-      bars: false,
-    };
-  },
-  components: {},
-  methods: {
-    openModal() {
-      this.modalOpen = true;
-    },
-    openModal2() {
-      this.modalOpen2 = true;
-    },
-  },
-};
 </script>
 
 <style lang="scss" scoped>

@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <swiper
+    <div class="swiper-content">
+          <swiper
       :slidesPerView="4"
       :centeredSlides="false"
       :slidesPerGroupSkip="1"
@@ -10,21 +11,22 @@
       :navigation="true"
       :pagination="{ clickable: false }"
       :modules="modules"
-      class="mySwiper"
+      class="mySwiper1"
     >
       <swiper-slide v-for="card in 10" :key="card" swiper-slide>
         <h2 class="text-[20px] text-[#202020] leading-[19px]">Компьютеры</h2>
-        <img src="../public/images/Computer 1.png" />
+        <img class="comp" src="../public/images/Computer 1.png" />
       </swiper-slide>
       
       <!-- Custom navigation buttons -->
   
 
     </swiper>
+    </div>
   </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 body {
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
@@ -33,11 +35,7 @@ body {
   padding: 0;
 }
 
-.swiper {
-  width: 100%;
-  height: 100%;
-  padding: 80px 0;
-}
+
 
 .swiper-slide {
   width: 358px;
@@ -51,10 +49,13 @@ body {
   padding: 10px;
 }
 
-.swiper-slide img {
+.swiper-slide .comp {
   width: 140px;
   height: 110px;
   transform: translateY(-24px);
+}
+.swiper{
+
 }
 
 
