@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="big">
     <div class="nav_top py-3">
       <div class="container flex justify-between items-center">
         <div class="nav-top_left flex gap-[74px]">
@@ -70,7 +70,10 @@
     <div class="nav_bottom">
       <div class="container">
         <div class="nav_bottom_content flex gap-[55px] mt-[33px] items-center">
-          <button class="nav_bottom_button flex py-[10px] px-[79px] bg-[#ED3729] text-white items-center gap-[10px] rounded-[5px]">
+          <button
+            class="nav_bottom_button flex py-[10px] px-[79px] bg-[#ED3729] text-white items-center gap-[10px] rounded-[5px]"
+            @click="openModal2"
+          >
             <div class="flex flex-col gap-[4px]">
               <span class="w-[22px] h-[2px] bg-white"></span>
               <span class="w-[22px] h-[2px] bg-white"></span>
@@ -90,10 +93,38 @@
         </div>
       </div>
     </div>
+    <div class="message bg-[#ED3729] w-[67px] h-[67px] rounded-[50%]">
+      <img src="../assets/images/Vector.png" alt="" />
+    </div>
+    <button class="button" v-if="modalOpen2" @close="closeModal2" @click="modalOpen2 = false">
+      <span class="X"></span>
+      <span class="Y"></span>
+      <div class="close">Close</div>
+    </button>
+    <filterCom v-if="modalOpen2" @close="closeModal2"></filterCom>
   </div>
 </template>
 
-<script setup>
+<script>
+export default {
+  data() {
+    return {
+      modalOpen2: false,
+      modalOpen: false,
+      modalOpen3: false,
+      bars: false,
+    };
+  },
+  components: {},
+  methods: {
+    openModal() {
+      this.modalOpen = true;
+    },
+    openModal2() {
+      this.modalOpen2 = true;
+    },
+  },
+};
 </script>
 
 <style lang="scss" scoped>
