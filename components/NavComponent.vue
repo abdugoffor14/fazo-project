@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="big">
     <div class="nav_top py-3">
       <div class="container flex justify-between items-center">
         <div class="nav-top_left flex gap-[74px]">
@@ -70,7 +70,10 @@
     <div class="nav_bottom">
       <div class="container">
         <div class="nav_bottom_content flex gap-[55px] mt-[33px] items-center">
-          <button class="nav_bottom_button flex py-[10px] px-[79px] bg-[#ED3729] text-white items-center gap-[10px] rounded-[5px]">
+          <button
+            class="nav_bottom_button flex py-[10px] px-[79px] bg-[#ED3729] text-white items-center gap-[10px] rounded-[5px]"
+            @click="openModal2"
+          >
             <div class="flex flex-col gap-[4px]">
               <span class="w-[22px] h-[2px] bg-white"></span>
               <span class="w-[22px] h-[2px] bg-white"></span>
@@ -90,11 +93,6 @@
         </div>
       </div>
     </div>
-
-  </div>
-</template>
-
-<script setup>
 
 </script>
 
