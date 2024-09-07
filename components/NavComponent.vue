@@ -93,7 +93,8 @@
         </div>
       </div>
     </div>
-    <div class="message bg-[#ED3729] w-[67px] h-[67px] rounded-[50%]">
+    <navswiperComp></navswiperComp>
+    <div class="message bg-[#ED3729] w-[67px] h-[67px] rounded-[50%]" @click="openModal3">
       <img src="../assets/images/Vector.png" alt="" />
     </div>
     <button class="button" v-if="modalOpen2" @close="closeModal2" @click="modalOpen2 = false">
@@ -101,6 +102,9 @@
       <span class="Y"></span>
       <div class="close">Close</div>
     </button>
+    <div class="message_modal_bg" v-if="modalOpen3" @close="closeModal3" @click="modalOpen3 = false">
+    </div>
+    <messageComp v-if="modalOpen3" @close="closeModal3"></messageComp>
     <filterCom v-if="modalOpen2" @close="closeModal2"></filterCom>
   </div>
 </template>
@@ -123,6 +127,12 @@ export default {
     openModal2() {
       this.modalOpen2 = true;
     },
+    openModal3() {
+      this.modalOpen3 = true;
+    },
+    closeModal1(){
+      this.closeModal1 = false;
+    }
   },
 };
 </script>

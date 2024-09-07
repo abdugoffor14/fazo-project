@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.message_madal {
+    position: fixed;
+    top: 450px;
+    left: 1466px;
+    z-index: 10000;
+    .message_modal_top {
+        position: relative;
+        align-items: center;
+        border-radius: 5px 5px 0 0;
+        .message_modal_img{
+            margin-left: 28px;
+            bottom: 40px;
+            position: absolute;
+        }
+        .message_modal_title{
+            margin-left: 100px;
+        }
+    }
+    .message_modal_center{
+        background-color: #fff;
+        width: 307px;
+        height: 301px;
+    }
+    .message_modal_bottom{
+        .message_modal_bottom_inputs{
+            align-items: center;
+            gap: 10px;
+            padding: 10px 20px;
+            border-top: 1px solid #E0E0E0;
+            border-radius: 0 0 5px 5px;
+            // margin-top: 301px;
+            input{
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
