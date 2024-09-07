@@ -104,6 +104,7 @@
     </button>
     <div class="message_modal_bg" v-if="modalOpen3" @close="closeModal3" @click="modalOpen3 = false">
     </div>
+    <div></div>
     <messageComp v-if="modalOpen3" @close="closeModal3"></messageComp>
     <filterCom v-if="modalOpen2" @close="closeModal2"></filterCom>
   </div>
