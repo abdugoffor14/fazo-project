@@ -1,5 +1,5 @@
 <template>
-  <div class="filter_big z-30 ">
+  <div class="filter_big">
     <div class="container">
       <section class="bg-[#fff]">
         <div class="container flex">
