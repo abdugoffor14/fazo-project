@@ -54,9 +54,7 @@ body {
   height: 110px;
   transform: translateY(-24px);
 }
-.swiper{
 
-}
 
 
 

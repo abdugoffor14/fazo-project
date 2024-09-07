@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="container">
+        <div class="container z-0">
             <swiper :slides-per-view="1" loop>
             <swiper-slide>
               <img src="../assets/images/75huylFjILwQmN7lrs89 1.png" alt="" />
